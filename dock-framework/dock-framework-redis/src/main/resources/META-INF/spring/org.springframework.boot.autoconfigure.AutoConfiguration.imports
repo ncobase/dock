@@ -1,0 +1,2 @@
+com.ncobase.framework.redis.config.RedisConfig
+com.ncobase.framework.redis.config.CacheConfig

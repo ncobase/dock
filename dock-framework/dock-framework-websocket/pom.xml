@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.ncobase</groupId>
+        <artifactId>dock-framework</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dock-framework-websocket</artifactId>
+
+    <description>
+        WebSocket 模块
+    </description>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-redis</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-satoken</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-json</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-websocket</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+    </dependencies>
+</project>

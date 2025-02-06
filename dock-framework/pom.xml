@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dock</artifactId>
+        <groupId>com.ncobase</groupId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <modules>
+        <module>dock-framework-deps</module>
+        <module>dock-framework-social</module>
+        <module>dock-framework-core</module>
+        <module>dock-framework-docs</module>
+        <module>dock-framework-excel</module>
+        <module>dock-framework-idempotent</module>
+        <module>dock-framework-tasker</module>
+        <module>dock-framework-logger</module>
+        <module>dock-framework-mail</module>
+        <module>dock-framework-mybatis</module>
+        <module>dock-framework-oss</module>
+        <module>dock-framework-ratelimiter</module>
+        <module>dock-framework-redis</module>
+        <module>dock-framework-satoken</module>
+        <module>dock-framework-security</module>
+        <module>dock-framework-sms</module>
+        <module>dock-framework-web</module>
+        <module>dock-framework-translation</module>
+        <module>dock-framework-sensitive</module>
+        <module>dock-framework-json</module>
+        <module>dock-framework-encrypt</module>
+        <module>dock-framework-tenant</module>
+        <module>dock-framework-websocket</module>
+        <module>dock-framework-sse</module>
+    </modules>
+
+    <artifactId>dock-framework</artifactId>
+    <packaging>pom</packaging>
+
+    <description>
+        基础框架，依赖项、公共模块、工具等
+    </description>
+
+</project>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ncobase</groupId>
+    <artifactId>dock-framework-deps</artifactId>
+    <version>${revision}</version>
+    <packaging>pom</packaging>
+
+    <description>
+        Framework 依赖项
+    </description>
+
+    <properties>
+        <revision>0.1.0</revision>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <!-- 核心模块 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-core</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 接口模块 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-docs</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- excel -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-excel</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 幂等 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-idempotent</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 调度模块 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-tasker</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 日志记录 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-logger</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 邮件服务 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-mail</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 数据库服务 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-mybatis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- OSS -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-oss</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 限流 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-ratelimiter</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 缓存服务 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-redis</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- satoken -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-satoken</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 安全模块 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-security</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 短信模块 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-sms</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-social</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- web服务 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-web</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 翻译模块 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-translation</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 脱敏模块 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-sensitive</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 序列化模块 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-json</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 数据库加解密模块 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-encrypt</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- 租户模块 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-tenant</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- WebSocket模块 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-websocket</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+            <!-- SSE模块 -->
+            <dependency>
+                <groupId>com.ncobase</groupId>
+                <artifactId>dock-framework-sse</artifactId>
+                <version>${revision}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+</project>

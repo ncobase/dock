@@ -1,0 +1,3 @@
+
+:: Dock ::  v${spring.application.version}
+:: Spring Boot ::  v${spring-boot.version}

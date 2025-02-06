@@ -1,0 +1,3 @@
+com.ncobase.framework.encrypt.config.EncryptorAutoConfiguration
+com.ncobase.framework.encrypt.config.ApiDecryptAutoConfiguration
+

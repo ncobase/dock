@@ -1,0 +1,5 @@
+com.ncobase.framework.web.web.config.CaptchaConfig
+com.ncobase.framework.web.web.config.FilterConfig
+com.ncobase.framework.web.web.config.I18nConfig
+com.ncobase.framework.web.web.config.ResourcesConfig
+com.ncobase.framework.web.web.config.UndertowConfig

@@ -1,0 +1,35 @@
+package com.ncobase.framework.translation.constant;
+
+/**
+ * 翻译常量
+ *
+ * @author Lion Li
+ */
+public interface TransConstant {
+
+    /**
+     * 用户 id 转账号
+     */
+    String USER_ID_TO_NAME = "user_id_to_name";
+
+    /**
+     * 用户 id 转用户名称
+     */
+    String USER_ID_TO_NICKNAME = "user_id_to_nickname";
+
+    /**
+     * 部门 id 转名称
+     */
+    String DEPT_ID_TO_NAME = "dept_id_to_name";
+
+    /**
+     * 字典 type 转 label
+     */
+    String DICT_TYPE_TO_LABEL = "dict_type_to_label";
+
+    /**
+     * ossId 转 url
+     */
+    String OSS_ID_TO_URL = "oss_id_to_url";
+
+}

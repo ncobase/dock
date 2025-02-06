@@ -1,0 +1,7 @@
+{
+  "com.ncobase.framework.ratelimiter.annotation.RateLimiter@key": {
+    "method": {
+      "parameters": true
+    }
+  }
+}

@@ -1,0 +1,6 @@
+com.ncobase.framework.translation.config.TranslationConfig
+com.ncobase.framework.translation.core.impl.DeptNameTranslationImpl
+com.ncobase.framework.translation.core.impl.DictTypeTranslationImpl
+com.ncobase.framework.translation.core.impl.OssUrlTranslationImpl
+com.ncobase.framework.translation.core.impl.UserNameTranslationImpl
+com.ncobase.framework.translation.core.impl.NicknameTranslationImpl

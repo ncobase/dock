@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.ncobase</groupId>
+        <artifactId>dock-modules</artifactId>
+        <version>${revision}</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dock-system</artifactId>
+
+    <description>
+        系统模块
+    </description>
+
+    <dependencies>
+        <!-- 通用工具-->
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-docs</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-mybatis</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-translation</artifactId>
+        </dependency>
+
+        <!-- OSS功能模块 -->
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-oss</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-logger</artifactId>
+        </dependency>
+
+        <!-- excel-->
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-excel</artifactId>
+        </dependency>
+
+        <!-- SMS功能模块 -->
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-sms</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-tenant</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-security</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-idempotent</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-sensitive</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-encrypt</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-websocket</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.ncobase</groupId>
+            <artifactId>dock-framework-sse</artifactId>
+        </dependency>
+
+    </dependencies>
+
+</project>
