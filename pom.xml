@@ -56,6 +56,7 @@
         <maven-compiler-plugin.version>3.11.0</maven-compiler-plugin.version>
         <maven-surefire-plugin.version>3.1.2</maven-surefire-plugin.version>
         <flatten-maven-plugin.version>1.3.0</flatten-maven-plugin.version>
+        <!--<dependency-check.version>12.1.0</dependency-check.version>-->
     </properties>
 
     <profiles>
@@ -443,6 +444,19 @@
                     </execution>
                 </executions>
             </plugin>
+            <!-- OWASP Dependency-Check Plugin -->
+            <!--<plugin>-->
+            <!--    <groupId>org.owasp</groupId>-->
+            <!--    <artifactId>dependency-check-maven</artifactId>-->
+            <!--    <version>${dependency-check.version}</version>-->
+            <!--    <executions>-->
+            <!--        <execution>-->
+            <!--            <goals>-->
+            <!--                <goal>check</goal>-->
+            <!--            </goals>-->
+            <!--        </execution>-->
+            <!--    </executions>-->
+            <!--</plugin>-->
         </plugins>
         <resources>
             <resource>
